@@ -1,0 +1,27 @@
+/* src/styles/Tutor/RegisterStudent.css */
+
+.register-student-form {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  position: relative; /* Ensure relative positioning for child elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.error-messages,
+.success {
+  position: absolute; /* Position the messages absolutely */
+  top: -20px; /* Move messages above the form */
+  left: 20px; /* Align messages to the left */
+  color: red; /* Error message color */
+  font-weight: bold;
+}
+
+.success {
+  color: green; /* Success message color */
+}
+
+.error {
+  margin: 0; /* Remove default margin for better positioning */
+}

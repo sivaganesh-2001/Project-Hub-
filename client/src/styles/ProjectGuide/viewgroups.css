@@ -1,0 +1,15 @@
+.view-groups {
+    padding: 20px;
+}
+
+.view-groups ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.view-groups ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}

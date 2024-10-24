@@ -1,0 +1,86 @@
+.make-group {
+    padding: 20px;
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Smaller width for a compact design */
+    margin: 20px auto; /* Center align the container */
+}
+
+.make-group h2 {
+    margin-bottom: 15px;
+    font-size: 20px; /* Adjusted font size */
+    color: #333; /* Dark text color for readability */
+    font-weight: bold;
+    text-align: center; /* Center align the heading */
+}
+
+.dropdown-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.dropdown-toggle {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 14px; /* Adjusted font size */
+}
+
+.dropdown-toggle:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-menu {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 200px; /* Limit height of dropdown */
+    overflow-y: auto; /* Scroll if content overflows */
+    z-index: 1000;
+    margin-top: 5px;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.create-group-button {
+    display: block;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px; /* Adjusted font size */
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the button */
+}
+
+.create-group-button:hover {
+    background-color: #218838;
+    transform: translateY(-1px); /* Slight lift effect on hover */
+}

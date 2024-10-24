@@ -1,0 +1,57 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    height: 60px;
+    font-weight: bold; 
+    font-family: Arial, sans-serif;
+    position: fixed; /* Make the Topbar fixed */
+    top: 0; /* Fix it to the top of the screen */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.topbar-logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change the logo color on hover to match the logout button */
+.topbar-logo a:hover {
+    color: #007bff;
+    background-color: #fff;
+}
+
+.topbar-admin {
+    font-size: 1.25rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.topbar-logout .logout-btn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-right: 30px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.topbar-logout .logout-btn:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+.logout-icon {
+    color: inherit;
+}

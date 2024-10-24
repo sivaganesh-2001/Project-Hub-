@@ -1,0 +1,66 @@
+/* src/styles/Tutor/TutorPage.css */
+
+.tutor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height for the entire page */
+}
+
+.main-section {
+  display: flex;
+  flex-grow: 1;
+}
+
+.topbar {
+  background-color: #007bff; /* Blue background for the Topbar */
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure Topbar is above everything else */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the Topbar */
+}
+
+.topbar .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.topbar .actions {
+  display: flex;
+  gap: 15px;
+}
+
+.topbar .actions button {
+  background-color: white;
+  border: none;
+  color: #007bff;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.topbar .actions button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto; /* Scrollable content */
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2e3b55;
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+}

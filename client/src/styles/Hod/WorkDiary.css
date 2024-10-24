@@ -1,0 +1,48 @@
+/* WorkDiaryView.css */
+.work-diary-view {
+    padding: 20px;
+  }
+  
+  .work-diary-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .work-diary-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .work-diary-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .work-diary-item .status {
+    font-weight: bold;
+  }
+  
+  .work-diary-item.unviewed {
+    background-color: #fff3cd; /* Light yellow for unviewed */
+  }
+  
+  .work-diary-item.viewed {
+    background-color: #d1ecf1; /* Light blue for viewed */
+  }
+  
+  .work-diary-item.correct {
+    background-color: #d4edda; /* Light green for correct */
+  }
+  
+  .work-diary-item.incorrect {
+    background-color: #f8d7da; /* Light red for incorrect */
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  

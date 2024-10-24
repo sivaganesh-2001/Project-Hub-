@@ -1,0 +1,69 @@
+/* UpdateStudent.css */
+
+.manage-student-form {
+    width: 500px; /* Set the width of the form */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px; /* Add padding to the form */
+    border: 1px solid #ccc; /* Add a border around the form */
+    border-radius: 8px; /* Round the corners of the form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    background-color: #fff; /* Set the background color of the form */
+  }
+  
+  h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 90%; /* Make the inputs full width */
+    padding: 10px; /* Add padding inside the inputs */
+    margin: 10px 0; /* Add space above and below inputs */
+    border: 1px solid #ccc; /* Set border for inputs */
+    border-radius: 4px; /* Round the corners of the inputs */
+    font-size: 16px; /* Increase font size */
+  }
+  
+  input[type="email"].error,
+  input[type="text"].error,
+  input[type="password"].error,
+  select.error {
+    border-color: red; /* Change border color for error states */
+  }
+  
+  .error-message {
+    color: red; /* Set error message color to red */
+    font-size: 14px; /* Decrease font size for error messages */
+    margin: 5px 0; /* Add space around error messages */
+  }
+  
+  .success-message {
+    color: green; /* Set success message color to green */
+    font-size: 16px; /* Increase font size for success messages */
+    margin-bottom: 10px; /* Add space below success messages */
+  }
+  
+  .error-message,
+  .success-message {
+    text-align: center; /* Center align messages */
+  }
+  
+  button {
+    width: 100%; /* Make the button full width */
+    padding: 10px; /* Add padding inside the button */
+    background-color: #007bff; /* Set button background color */
+    color: white; /* Set button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Round the corners of the button */
+    font-size: 16px; /* Increase font size for button */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Add transition effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

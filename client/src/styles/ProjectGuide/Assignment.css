@@ -1,0 +1,112 @@
+/* Assignment Form Container */
+.assignment-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Title */
+  .assignment-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form Group (Label and Input Fields) */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* Placeholder Styling */
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: #888;
+  }
+  
+  /* Form Group for Role-Specific Inputs */
+  .form-group select {
+    background-color: #fff;
+  }
+  
+  /* Button Styling */
+  .btn {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Success and Error Messages */
+  .success-message,
+  .error-message {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .success-message {
+    color: #4caf50;
+  }
+  
+  .error-message {
+    color: #f44336;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .assignment-form-container {
+      padding: 15px;
+    }
+  
+    .form-group label {
+      font-size: 14px;
+    }
+  
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      font-size: 13px;
+    }
+  
+    .btn {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  

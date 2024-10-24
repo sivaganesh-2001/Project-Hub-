@@ -1,0 +1,67 @@
+/* Grid container for displaying departments */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .grid-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .grid-item .actions {
+    margin-top: 10px;
+  }
+  
+  button.view, button.edit, button.delete {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.view {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  button.edit {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  button.delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button.view:hover {
+    background-color: #1976d2;
+  }
+  
+  button.edit:hover {
+    background-color: #e65100;
+  }
+  
+  button.delete:hover {
+    background-color: #d32f2f;
+  }
+      

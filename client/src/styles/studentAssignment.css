@@ -1,0 +1,89 @@
+.work-diary-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+}
+
+.assignments-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.assignments-list li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.assignments-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.assignment-details {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-details h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.assignment-details p {
+  margin: 5px 0;
+}
+
+.assignment-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.assignment-details table th,
+.assignment-details table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.assignment-details table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.assignment-details table td {
+  background-color: #fff;
+}
+
+.assignment-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.assignment-details a:hover {
+  text-decoration: underline;
+}

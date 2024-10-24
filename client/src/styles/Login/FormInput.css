@@ -1,0 +1,17 @@
+/* src/styles/FormInput.css */
+.form-input {
+    margin-bottom: 1rem;
+  }
+  
+  .form-input label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-input input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

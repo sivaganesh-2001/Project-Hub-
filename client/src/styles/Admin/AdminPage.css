@@ -1,0 +1,81 @@
+/* src/styles/AdminPage.css */
+
+.admin-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4; /* Light gray background */
+}
+
+.sidebar {
+  width: 250px; /* Fixed width for sidebar */
+  background-color: #343a40; /* Dark background for sidebar */
+  color: white; /* White text color */
+  padding: 10px; /* Padding for spacing */
+  border-right: 1px solid #ddd; /* Light border to separate from content */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 10px;
+  background-color: #fff; /* White background for the main content area */
+  overflow-y: auto; /* Scrollable content if it overflows */
+}
+
+.content-wrapper {
+  width: 100%; /* Full width to utilize available space */
+  max-width: 1200px; /* Max width for content area */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+h2 {
+  margin-top: 0;
+  color: #333; /* Darker text color for headings */
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 10px 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(0, 0, 0); /* White text for sidebar items */
+  text-decoration: none; /* No underline */
+}
+
+li:hover {
+  color: zz#007bff; /* Highlight color on hover */
+}
+
+/* Add spacing for the components in the main content area */
+.component {
+  margin-bottom: 20px;
+}
+/* AdminPage CSS */
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content-section {
+  display: flex;
+  flex-grow: 1;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+.content-section {
+  display: flex;
+}
+

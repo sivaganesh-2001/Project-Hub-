@@ -1,0 +1,50 @@
+.checkbox-dropdown {
+    margin-bottom: 16px;
+  }
+  
+  .dropdown {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    position: relative;
+    background: #fff;
+  }
+  
+  .dropdown-label {
+    font-weight: bold;
+  }
+  
+  .dropdown-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .dropdown-list.open {
+    display: block;
+  }
+  
+  .dropdown-option {
+    display: flex; /* Use flex to align items in one row */
+    align-items: left; /* Vertically center checkbox and label */
+    padding: -0px;
+    cursor: pointer;
+    margin-left: 0px; /* Left margin to align everything with space */
+  }
+  
+  .dropdown-option input[type="checkbox"] {
+    margin-right: 8px; /* Space between checkbox and label */
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f0f0f0;
+  }
+  

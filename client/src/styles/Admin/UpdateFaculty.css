@@ -1,0 +1,90 @@
+/* src/styles/Admin/ManageFaculty.css */
+
+.manage-faculty-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-faculty-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .manage-faculty-form input,
+  .manage-faculty-form select,
+  .manage-faculty-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .manage-faculty-form input:focus,
+  .manage-faculty-form select:focus {
+    border-color: #007bff;
+  }
+  
+  .manage-faculty-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .manage-faculty-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .manage-faculty-form select {
+    background-color: white;
+    color: #333;
+  }
+  
+  .success-message,
+  .error-message {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .success-message {
+    color: #28a745;
+    background-color: #e9f7ef;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+  }
+  
+  @media (max-width: 768px) {
+    .manage-faculty-form {
+      padding: 15px;
+    }
+  
+    .manage-faculty-form h2 {
+      font-size: 20px;
+    }
+  
+    .manage-faculty-form input,
+    .manage-faculty-form select,
+    .manage-faculty-form button {
+      font-size: 14px;
+    }
+  }
+  

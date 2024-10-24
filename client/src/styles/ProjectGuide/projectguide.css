@@ -1,0 +1,64 @@
+/* src/styles/ProjectGuide/projectguide.css */
+
+.project-guide {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Topbar should always stay at the top */
+.topbar {
+    background-color: #007bff; /* Dark blue background */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.topbar .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.topbar .actions {
+    display: flex;
+    gap: 15px; /* Space between actions */
+}
+
+.topbar .actions button {
+    background-color: #fff;
+    border: none;
+    color: #1f3f94;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.topbar .actions button:hover {
+    background-color: #1f3f94;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    margin-top: 50px; /* Give space for the topbar */
+}
+
+/* Sidebar will be on the left */
+.sidebar {
+    width: 250px;
+    background-color: #2e3b55; /* Darker sidebar background */
+    color: #fff;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.content-area {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Ensure content is scrollable */
+}

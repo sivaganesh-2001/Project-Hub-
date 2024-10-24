@@ -1,0 +1,23 @@
+/* src/styles/HoD/HoDPage.css */
+
+.hod-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 270px; /* Offset by the sidebar width */
+  padding: 30px;
+  background-color: #fff;
+  overflow-y: auto; 
+}
+
+.component {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

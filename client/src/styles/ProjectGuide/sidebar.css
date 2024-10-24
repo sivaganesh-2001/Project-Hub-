@@ -1,0 +1,34 @@
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.logo {
+    color: rgb(117, 4, 10);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.link {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 20px; /* Space between items */
+    transition: color 0.3s;
+}
+
+.link:hover,
+.link.active {
+    color: #ddd; /* Lighter shade for hover and active state */
+}
+
+.link_text {
+    font-weight: bold;
+}

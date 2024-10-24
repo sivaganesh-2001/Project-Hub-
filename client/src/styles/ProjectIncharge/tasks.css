@@ -1,0 +1,33 @@
+.tasks {
+    padding: 20px;
+}
+
+.tasks h2 {
+    margin-bottom: 20px;
+}
+
+.tasks .task-form {
+    margin-bottom: 20px;
+}
+
+.tasks .task-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tasks .task-form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.tasks .task-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tasks .task-form button:hover {
+    background-color: #0056b3;
+}

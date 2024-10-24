@@ -1,0 +1,112 @@
+/* Sidebar container */
+.sidebar {
+    background: #007bff;
+    backdrop-filter: blur(10px); /* Adds the glass effect */
+    width: 200px;
+    padding-top: 200px; /* Set this slightly larger than 60px to prevent clashing */
+    padding-left: 10px;
+    padding-right: 30px;
+    height: 100vh;
+    transition: all 0.3s ease;
+    position: fixed; /* Keeps the sidebar fixed along with the topbar */
+    top: 0; /* Aligns it at the top */
+}
+
+  
+  /* Sidebar content will start below the topbar */
+  .sidebar-header {
+    padding: 50px 10px;
+    text-align: center;
+  }
+  
+
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 5px;
+  }
+  
+  .sidebar-menu li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 10px; /* Space between dropdowns */
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1); /* Background for unselected items */
+    border-radius: 10px;
+  }
+  
+  .sidebar-menu li:hover {
+    background: rgba(255, 255, 255, 0.4); /* Hover effect */
+    backdrop-filter: blur(12px);
+  }
+  
+  .sidebar-menu li.active, .submenu li.active {
+    background: rgba(255, 255, 255, 0.5); /* Glassmorphism selected effect */
+    backdrop-filter: blur(15px);
+    color: rgba(255, 255, 255, 0.9); /* Nearly white, soft */
+    font-weight: bold;
+  }
+  
+  .submenu {
+    padding-left: 20px;
+  }
+  
+  .submenu li {
+    padding: 12px 15px;
+    font-size: 14px;
+    margin-bottom: 8px; /* Space between submenu items */
+    background: rgba(255, 255, 255, 0.15); /* Glass background for submenu */
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .submenu li:hover {
+    background: rgba(255, 255, 255, 0.25); /* Hover effect */
+  }
+  
+  .workspace-menu li,
+  .submenu li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: max-height 0.3s ease;
+  }
+  
+  .sidebar-footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .sidebar-footer li {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar-footer li:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  /* Animations for dropdown expand/shrink */
+  .submenu,
+  .workspace-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .sidebar-menu li.active + .submenu,
+  .sidebar-menu li.active + .workspace-menu {
+    max-height: 300px; /* Or adjust depending on items */
+  }
+  

@@ -1,0 +1,37 @@
+.department-container {
+  padding: 20px; /* Space around the container */
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px; /* Rounded corners for the container */
+}
+
+.department-grid {
+  display: grid; /* Use CSS Grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between grid items */
+}
+
+.department-card {
+  background-color: #ffffff; /* White background for each card */
+  border: 1px solid #ddd; /* Light border around cards */
+  border-radius: 8px; /* Rounded corners for cards */
+  padding: 15px; /* Inner space within cards */
+  text-align: center; /* Centered text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.department-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.department-card h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 1.5em; /* Larger font size for department ID */
+  color: #67a2c2; /* Dark color for text */
+}
+
+.department-card p {
+  margin: 10px 0; /* Margin for paragraph elements */
+  font-size: 1em; /* Standard font size */
+  color: #666; /* Slightly lighter color for description text */
+}

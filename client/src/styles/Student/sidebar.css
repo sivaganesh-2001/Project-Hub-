@@ -1,0 +1,30 @@
+.sidebar {
+    width: 100px;
+    height: 100vh;
+    background-color: #34495e;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li:first-child {
+    margin-top: 10px; /* Increase this value to adjust the distance */
+}
+
+.sidebar ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    color: #e74c3c;
+}

@@ -1,0 +1,140 @@
+.manage-faculty-remove {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
+  .manage-faculty-remove h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .manage-faculty-remove input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  .manage-faculty-remove input.error {
+    border-color: #dc3545;
+  }
+  
+  .manage-faculty-remove input:focus {
+    border-color: #007bff;
+  }
+  
+  .search-btn, .delete-btn, .cancel-btn, .confirm-btn {
+    padding: 12px 20px;
+    margin-top: 10px;
+    background-color: #007bff; /* Blue */
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%; /* Full width */
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .search-btn:hover, .delete-btn:hover, .confirm-btn:hover {
+    background-color: #0056b3; /* Darker blue */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333; /* Darker red */
+  }
+  
+  .faculty-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 1px solid #dddddd;
+  }
+  
+  .faculty-details h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333333;
+  }
+  
+  .faculty-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #444444;
+  }
+  
+  .faculty-details strong {
+    color: #007bff;
+  }
+  
+  .confirm-delete {
+    background-color: #fff3cd;
+    padding: 20px;
+    border: 1px solid #ffeeba;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .confirm-delete p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .success-message, .error-message {
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: #28a745;
+    background-color: #e9f7ef;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+  }
+  
+  @media (max-width: 768px) {
+    .manage-faculty-remove {
+      padding: 15px;
+    }
+  
+    .manage-faculty-remove h2 {
+      font-size: 20px;
+    }
+  
+    .faculty-details p {
+      font-size: 14px;
+    }
+  
+    .search-btn, .delete-btn, .cancel-btn, .confirm-btn {
+      font-size: 14px;
+    }
+  }
+  

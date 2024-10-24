@@ -1,0 +1,73 @@
+/* Main container for the work diary */
+.work-diary-container {
+  max-width: 800px; /* Limit the width of the container */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Heading style */
+.work-diary-container h1 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Darker text color */
+  font-size: 24px; /* Font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Table styling */
+table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Collapse borders for a cleaner look */
+  margin-top: 20px; /* Space above the table */
+}
+
+/* Table header styling */
+thead {
+  background-color: #007BFF; /* Bootstrap primary color */
+  color: #fff; /* White text color */
+}
+
+/* Table header cells */
+th {
+  padding: 12px; /* Padding for table header cells */
+  text-align: left; /* Align text to the left */
+  font-weight: bold; /* Bold text for headers */
+}
+
+/* Table body cells */
+td {
+  padding: 10px; /* Padding for table body cells */
+  border-bottom: 1px solid #ddd; /* Light border at the bottom of cells */
+}
+
+/* Alternate row background color for readability */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+/* Link styling for document URLs */
+a {
+  color: #007BFF; /* Link color */
+  text-decoration: none; /* No underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Error message styling */
+.error {
+  color: red; /* Red color for errors */
+  text-align: center; /* Center the error message */
+  margin-top: 20px; /* Space above the error message */
+}
+
+/* Loading message styling */
+p {
+  text-align: center; /* Center the loading message */
+  color: #555; /* Gray color for loading text */
+}

@@ -1,0 +1,100 @@
+/* src/styles/ProjectIncharge/sidebar.css */
+
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+.sidebar {
+    width: 250px; /* Fixed width for sidebar */
+    background-color: #007bff; /* Blue background */
+    color: white; /* Text color */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 1.5em; /* Larger font size for logo */
+    font-weight: bold; /* Bold font */
+    text-align: center; /* Centered text */
+}
+
+.link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text for links */
+    margin: 10px 0; /* Space between links */
+    padding: 10px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten background on hover */
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.3); /* Highlight active link */
+}
+
+.link_text {
+    display: flex;
+    align-items: center; /* Center text vertically */
+}
+
+main {
+    flex: 1; /* Take the remaining space */
+    padding: 20px; /* Padding for main content */
+    background-color: #f9f9f9; /* Light background for main content */
+    overflow-y: auto; /* Scrollable if content overflows */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100px; /* Reduce sidebar width on smaller screens */
+    }
+
+    .link {
+        font-size: 0.9em; /* Smaller font for links */
+        padding: 8px; /* Less padding */
+    }
+
+    .logo {
+        font-size: 1.2em; /* Smaller logo font size */
+    }
+}
+/* sidebar.css */
+
+/* sidebar.css */
+
+/* Existing styles... */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown_content {
+    display: block; /* Show dropdown content */
+    position: absolute;
+    background-color: #ffffff; /* Background color for dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Ensure dropdown is above other content */
+}
+
+.dropdown_content .link {
+    padding: 10px; /* Add padding to links */
+    display: block;
+}
+
+.dropdown_content .link:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+}

@@ -1,0 +1,143 @@
+/* Container for the announcements */
+.announcements-container {
+  padding: 15px;
+  background-color: #f9f9f9; /* Slightly lighter background */
+  height: calc(100vh - 120px); /* Adjust height to accommodate topbar and padding */
+  overflow-y: auto; /* Enable scrolling if the content exceeds available space */
+  color: black;
+  font-family: 'Roboto', sans-serif; /* Modern and clean font */
+}
+
+/* Header Styling */
+.announcements-container h2 {
+  font-size: 1.5rem; /* Slightly smaller header */
+  color: #333;
+  border-bottom: 1px solid #007bff; /* Thinner border */
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+/* Announcement List */
+.announcement-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.announcement-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 12px; /* Reduced padding for compactness */
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); /* Lighter shadow */
+  transition: transform 0.2s ease-in-out;
+}
+
+.announcement-item:hover {
+  transform: scale(1.02); /* Hover effect */
+}
+
+.announcement-box {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Announcement Title */
+.announcement-box h3 {
+  font-size: 1.4rem; /* Smaller title */
+  margin-bottom: 8px;
+  color: #007bff;
+  font-weight: 600;
+}
+
+.announcement-box p {
+  margin-bottom: 8px;
+  line-height: 1.4; /* Tighter line spacing */
+  color: #333;
+  font-size: 0.9rem; /* Reduced text size */
+}
+
+/* Attachments Styling */
+.attachments {
+  margin-top: 8px;
+}
+
+.attachments h4 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+  color: #007bff;
+}
+
+.attachments ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.attachments ul li {
+  margin-bottom: 4px;
+}
+
+.attachments a {
+  color: #007bff;
+  text-decoration: underline;
+  font-size: 0.9rem; /* Reduced link text size */
+}
+
+.attachments a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+/* Posted Information */
+.posted-info {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 8px;
+}
+
+/* Error Message */
+.message.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* PDF Viewer */
+.pdf-viewer {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+.pdf-viewer button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px; /* Smaller button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pdf-viewer button:hover {
+  background-color: #0056b3;
+}
+
+.pdf-viewer iframe {
+  border: none;
+  width: 100%;
+  height: 500px; /* Reduced iframe height */
+}
+
+/* Loading text */
+.announcements-container p {
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+}

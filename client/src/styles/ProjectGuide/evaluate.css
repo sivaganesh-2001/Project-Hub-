@@ -1,0 +1,71 @@
+.evaluate-marks-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: auto; /* Center the container */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Label on a new line */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold text for labels */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Full width for input */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #007bff; /* Border color on focus */
+}
+
+.button-group {
+    display: flex; /* Use flexbox to arrange buttons */
+    justify-content: center; /* Center the buttons */
+    align-items: center; /* Center the items vertically */
+    margin-top: 20px; /* Add space above the button group */
+}
+
+.btn {
+    background-color: #8b9299; /* Gray button */
+    color: white; /* White text for button */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+    margin: 0 10px; /* Add horizontal margin between buttons */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.success-message {
+    color: green; /* Success message color */
+    margin-top: 10px; /* Space above success message */
+    text-align: center; /* Center the success message */
+}
+
+.error-message {
+    color: red; /* Error message color */
+    margin-top: 10px; /* Space above error message */
+    text-align: center; /* Center the error message */
+}

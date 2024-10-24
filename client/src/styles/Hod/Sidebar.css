@@ -1,0 +1,64 @@
+
+
+
+.sidebar h2 {
+  margin-bottom: 10px; /* Margin below the header */
+}
+
+.sidebar ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #408efb;
+  border-right: 1px solid #ffffff;
+  margin-top: 20px; /* Add top margin to the sidebar for spacing */
+}
+
+.sidebar li {
+  margin: 10px 0; /* Set a consistent space between all items */
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.sidebar ul li:first-child {
+  margin-top: 40px; /* Increase this value to adjust the distance */
+}
+
+.sidebar li:hover {
+  background-color: white; /* Background color on hover */
+  color:  #408efb;; /* Change text color to blue on hover */
+
+}
+.sidebar {
+  width: 250px;
+  padding: 20px 20px; /* Adjust side padding */
+  background-color: #408efb;
+  border-right: 1px solid #ffffff;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove any default margin */
+}
+
+.sidebar li {
+  margin: 5px 0; /* Space between list items */
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px; /* Adjust padding as necessary */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}

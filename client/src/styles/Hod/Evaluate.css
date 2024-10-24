@@ -1,0 +1,53 @@
+/* src/styles/HoD/Evaluate.css */
+
+.evaluate-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .evaluate-container h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .evaluate-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .evaluate-container label {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .evaluate-container input[type="text"],
+  .evaluate-container input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .evaluate-container button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #17a2b8; /* Teal color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .evaluate-container button:hover {
+    background-color: #138496; /* Darker teal on hover */
+  }
+  

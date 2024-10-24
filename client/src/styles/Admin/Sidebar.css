@@ -1,0 +1,33 @@
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #408efb; /* Sidebar background color */
+  border-right: 1px solid #ffffff; /* Right border for sidebar */
+}
+
+
+.sidebar h2 {
+  margin-bottom: 10px; /* Margin below the header */
+}
+
+.sidebar ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+.sidebar li {
+  margin: 10px 0; /* Space between list items */
+  cursor: pointer; /* Change cursor on hover */
+  color: white; /* Text color */
+  font-weight: bold; /* Bold text */
+  text-decoration: none; /* Remove underline */
+  padding: 20px 20px; /* Padding to increase click area */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.sidebar li:hover {
+  background-color: white; /* Background color on hover */
+  color: #408efb; /* Change text color to blue on hover */
+
+}

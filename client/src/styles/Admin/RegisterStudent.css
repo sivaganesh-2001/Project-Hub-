@@ -1,0 +1,92 @@
+/* src/styles/Admin/ManageStudent.css */
+
+.register-student-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-student-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .register-student-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-student-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .register-student-form input:focus {
+    border-color: #007bff;
+  }
+  
+  .register-student-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-student-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success {
+    color: #28a745;
+    background-color: #e9f7ef;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .error-messages {
+    margin-bottom: 15px;
+  }
+  
+  .error {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .register-student-form {
+      padding: 15px;
+    }
+  
+    .register-student-form h2 {
+      font-size: 20px;
+    }
+  
+    .register-student-form input,
+    .register-student-form button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  

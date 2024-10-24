@@ -1,0 +1,93 @@
+/* Delete Department Modal Styles */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: #fefefe; /* White background */
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px; /* Padding */
+    border: 1px solid #888; /* Border */
+    border-radius: 8px; /* Rounded corners */
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 500px; /* Maximum width */
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between; /* Space between title and close button */
+    align-items: center; /* Center vertically */
+  }
+  
+  .modal-header h2 {
+    margin: 0; /* Remove margin */
+  }
+  
+  .close {
+    cursor: pointer; /* Pointer on hover */
+    font-size: 24px; /* Larger close button */
+    color: #aaa; /* Light color */
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000; /* Darker on hover/focus */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .modal-body {
+    margin-top: 10px; /* Space above body */
+    font-size: 16px; /* Font size */
+    color: #333; /* Dark text */
+  }
+  
+  .modal-footer {
+    display: flex; /* Flex for layout */
+    justify-content: flex-end; /* Align buttons to the right */
+    margin-top: 20px; /* Space above footer */
+  }
+  
+  button.confirm,
+  button.cancel {
+    padding: 10px 15px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+    margin-left: 10px; /* Space between buttons */
+  }
+  
+  button.confirm {
+    background-color: #f44336; /* Red for delete */
+    color: white; /* White text */
+  }
+  
+  button.cancel {
+    background-color: #4caf50; /* Green for cancel */
+    color: white; /* White text */
+  }
+  
+  button.confirm:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
+  button.cancel:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
+  /* Feedback Message Styles */
+  .feedback-message {
+    margin-top: 10px; /* Space above message */
+    color: green; /* Success message color */
+    font-weight: bold; /* Bold text */
+  }
+  

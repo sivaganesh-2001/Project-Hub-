@@ -1,0 +1,110 @@
+/* Main student layout */
+.student {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Topbar remains fixed at the top */
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px; /* Adjust for topbar height */
+    height: calc(100vh - 60px); /* Adjust for topbar height */
+    overflow: hidden;
+}
+
+/* Sidebar stays fixed on the left */
+.sidebar {
+    width: 250px;
+
+    color: white;
+    height: 100%;
+    position: fixed;
+    top: 60px; /* Adjust for topbar height */
+    left: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #f8f9fa;
+    transition: background-color 0.2s ease;
+}
+
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.sidebar ul li.active {
+    background-color: #007bff;
+}
+
+/* Content area */
+.content-area {
+    margin-left: 20px; /* Adjust for sidebar width */
+    padding: 25px;
+    margin-top: 70px;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+    transition: margin-left 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .content-area {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100px;
+    }
+
+    .content-area {
+        margin-left: 100px;
+    }
+
+    .sidebar ul li {
+        padding: 10px 15px;
+    }
+
+    .sidebar ul li a {
+        font-size: 0.85rem;
+    }
+}

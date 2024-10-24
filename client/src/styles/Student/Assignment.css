@@ -1,0 +1,92 @@
+/* Container for the assignments */
+.assignments {
+  padding: 20px;
+  background-color: #f8f9fa;
+  height: calc(100vh - 120px); /* Adjust height to accommodate topbar and padding */
+  overflow-y: auto; /* Enable scrolling if the content exceeds available space */
+}
+
+.assignment-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.assignment-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.assignment-info p {
+  margin-bottom: 10px;
+}
+
+.download-link {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.download-link:hover {
+  text-decoration: none;
+}
+
+/* Styling for submission button */
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.submitted-info {
+  font-size: 1rem;
+  color: #28a745;
+}
+
+/* Upload form */
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.upload-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Error and Success Messages */
+.message.error {
+  color: red;
+}
+
+.message.success {
+  color: green;
+}
